@@ -3,11 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>Hello World</h1>
+    <h1>Hello World, this is {{title}}</h1>
 
-    <div *ngFor="let i of arr" >
+    <span *ngFor="let i of arr" >
       {{i}}
-    </div>
+    </span>
     
   `
 })
