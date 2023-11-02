@@ -11,5 +11,5 @@ export class AppComponent {
 
     title = "Darin";
     a ="a";
-    n = "b";
+    b = "b";
 }
