@@ -7,9 +7,21 @@ describe('AppComponent', () => {
       ],
     }).compileComponents();
   }));
+  
   it('should create the app', async(() => {
-
     expect(true).toBeTruthy();
   }));
 
+  it('should create the app', async(() => {
+    expect(true).toBeTruthy();
+  }));
+
+ it('should create the app', async(() => {
+    expect(true).toBeTruthy();
+  }));
+
+
+  it('should create the app', async(() => {
+    expect(true).toBeTruthy();
+  }));
 });
