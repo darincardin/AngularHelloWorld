@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   }));
 
  it('should create the app', async(() => {
-    expect(true).toBeTruthy();
+    expect(false).toBeTruthy();
   }));
 
 
