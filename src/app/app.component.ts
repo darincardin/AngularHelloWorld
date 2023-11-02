@@ -5,9 +5,9 @@ import { Component } from '@angular/core';
   template: `
     <h1>Hello World</h1>
 
-    <div *ngFor="let i of arr" >
+    <span *ngFor="let i of arr" >
       {{i}}
-    </div>
+    </span>
     
   `
 })
