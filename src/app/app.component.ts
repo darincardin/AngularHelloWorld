@@ -4,12 +4,17 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <h1>Hello World</h1>
+
+    <div *ngFor="let i of arr" >
+      {{i}}
+    </div>
+    
   `
 })
 export class AppComponent {
 
 
     title = "Darin";
-    a ="a";
+    arr = ["a", 'b', 'c' ];
     b = "b";
 }
